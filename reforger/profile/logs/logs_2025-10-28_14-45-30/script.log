@@ -1,0 +1,48 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-10-28_14-45-30/script.log started at 2025-10-28 14:45:31 (2025-10-28 14:45:31 UTC)
+
+14:45:31.339 SCRIPT       : SCRIPT       : Initializing scripts
+14:45:31.339  SCRIPT       : SCRIPT       : ScriptProjectManager init
+14:45:31.377 SCRIPT       : SCRIPT       : Compiling GameLib scripts
+14:45:31.400  SCRIPT       : Module: GameLib; loaded 354x files; 541x classes; used 504/2097 kB (24%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE"; CRC32: 57d31b2f
+14:45:31.402 SCRIPT       : SCRIPT       : Compiling Game scripts
+14:45:31.877 SCRIPT       : Compiling Game scripts
+14:45:31.877  SCRIPT    (W): @"scripts/GameCode/Effects/SCR_OptimizedMuzzleEffectComponent.c,14": Possible variable name conflict 'inScope'
+14:45:31.909  SCRIPT    (W): @"scripts/Game/Editor/UI/Components/Modes/SCR_PhotoSaveModeEditorUIComponent.c,25": Pointer type 'PixelRawData' can only be used with local variables
+14:45:32.061  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+14:45:32.062  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+14:45:32.062  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+14:45:32.076  SCRIPT    (W): @"scripts/Game/Components/Damage/SCR_VehicleDamageManagerComponent.c,826": Variable 'geomIndex' is not used
+14:45:32.105  SCRIPT    (W): @"scripts/Game/Components/Voting/SCR_VotingKick.c,134": Variable 'outcome' is not used
+14:45:32.175  SCRIPT    (W): @"scripts/Game/Entities/GridSpawnerEntity.c,180": 'Randomize' is obsolete: If seed need to be used use RandomGenerator instead
+14:45:32.232  SCRIPT    (W): @"scripts/Game/Groups/SCR_GroupTileButton.c,684": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:45:32.269  SCRIPT    (W): @"scripts/Game/ScenarioFramework/Actions/AIActions/SCR_ScenarioFrameworkAIActionSetCharacterStance.c,23": 'SetStance' is obsolete
+14:45:32.270  SCRIPT    (W): @"scripts/Game/ScenarioFramework/Actions/AIActions/SCR_ScenarioFrameworkAIActionSetMovementType.c,23": 'SetMovementType' is obsolete
+14:45:32.334  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+14:45:32.335  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:45:32.335  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,498": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:45:32.337  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1132": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:45:32.337  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1135": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:45:32.337  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1139": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:45:32.370  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsFilteredSubMenu.c,7": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:45:32.371  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsFilteredSubMenu.c,36": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:45:32.372  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsSubMenu.c,358": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:45:32.372  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsSubMenu.c,380": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:45:32.372  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsSubMenu.c,420": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:45:32.373  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsSubMenu.c,444": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:45:32.385  SCRIPT    (W): @"scripts/Game/UI/Menu/GroupSettingsDialogUI.c,37": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:45:32.396  SCRIPT    (W): @"scripts/Game/UI/Menu/ServerBrowserMenuUI.c,2799": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:45:32.396  SCRIPT    (W): @"scripts/Game/UI/Menu/ServerBrowserMenuUI.c,2832": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:45:32.397  SCRIPT    (W): @"scripts/Game/UI/Menu/ServerBrowserMenuUI.c,2857": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:45:32.421  SCRIPT    (W): @"scripts/Game/Vehicle/SCR_ImpactEffectComponent.c,206": Comparing unrelated types 'Class' and 'Physics'
+14:45:32.421  SCRIPT    (W): @"scripts/Game/Vehicle/SCR_ImpactEffectComponent.c,337": Comparing unrelated types 'Class' and 'Physics'
+14:45:32.425  SCRIPT    (W): @"scripts/Game/Weapon/Sights/SCR_2DPIPSightsComponent.c,432": 'SetGUIWidget' is obsolete: Use SetRenderTarget(IEntity ent) instead
+14:45:32.426  SCRIPT    (W): @"scripts/Game/Weapon/Sights/SCR_2DPIPSightsComponent.c,481": 'SetGUIWidget' is obsolete: Use SetRenderTarget(IEntity ent) instead
+14:45:32.427  SCRIPT    (W): @"scripts/Game/Weapon/Sights/SCR_PIPSightsComponent.c,115": 'SetGUIWidget' is obsolete: Use SetRenderTarget(IEntity ent) instead
+14:45:32.428  SCRIPT    (W): @"scripts/Game/Workshop/SCR_AddonManager.c,256": 'GetPrivilege' is obsolete: Use SocialComponent.IsPrivilegedTo() or IsMultiplayerAllowed()
+14:45:32.429  SCRIPT    (W): @"scripts/Game/Workshop/SCR_AddonManager.c,280": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:45:32.462  SCRIPT       : Module: Game; loaded 4727x files; 9525x classes; used 20798/41943 kB (49%) of static memory; defines: "PLATFORM_LINUX,ENF_ENABLE_VHC_OVERRIDE,ENF_ENABLE_RPLCOMPONENT_IN_GAMECODE,ENABLE_BASE_DESTRUCTION,BUDGET_OPTIMIZATION_CHECKS,DEBUG,RESPAWN_TIMER_COMPONENT_DEBUG,DEBUG_CONFIGURABLE_DIALOGS,DISABLE_WEAPON_SWITCHING,SCRIPTED_AIM_MODIFIER_DEBUG"; CRC32: 613c4e90
+14:45:49.111      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+14:45:49.661       SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.
+14:45:51.871  SCRIPT       : ScenarioFramework: Available tasks are empty, no new tasks will be generated.
+14:45:51.883   SCRIPT       : SCR_BaseGameMode::OnGameStateChanged = GAME

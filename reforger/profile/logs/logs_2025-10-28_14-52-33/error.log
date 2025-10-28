@@ -1,0 +1,104 @@
+---------------------------------------------
+Log /home/profile/logs/logs_2025-10-28_14-52-33/error.log started at 2025-10-28 14:52:33 (2025-10-28 14:52:33 UTC)
+
+14:52:33.444 RENDER    (E): GrassMaterialClass: cannot find perlin noise texture (system/textures/perlin.edds)
+14:52:33.447 MATERIAL  (E): SMAAEffect area texture not found (system/textures/PP/smaa_area)
+14:52:33.447 MATERIAL  (E): SMAAEffect search texture not found (system/textures/PP/smaa_search)
+14:52:34.086 SCRIPT       : Compiling Game scripts
+14:52:34.086  SCRIPT    (W): @"scripts/GameCode/Effects/SCR_OptimizedMuzzleEffectComponent.c,14": Possible variable name conflict 'inScope'
+14:52:34.118  SCRIPT    (W): @"scripts/Game/Editor/UI/Components/Modes/SCR_PhotoSaveModeEditorUIComponent.c,25": Pointer type 'PixelRawData' can only be used with local variables
+14:52:34.269  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,28": 'GetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+14:52:34.270  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,30": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+14:52:34.271  SCRIPT    (W): @"scripts/Game/Campaign/UI/SCR_CampaignUIMutePlayerComponent.c,35": 'SetPlayerBlockedState' is obsolete: Session blocking is no longer supported.
+14:52:34.285  SCRIPT    (W): @"scripts/Game/Components/Damage/SCR_VehicleDamageManagerComponent.c,826": Variable 'geomIndex' is not used
+14:52:34.315  SCRIPT    (W): @"scripts/Game/Components/Voting/SCR_VotingKick.c,134": Variable 'outcome' is not used
+14:52:34.387  SCRIPT    (W): @"scripts/Game/Entities/GridSpawnerEntity.c,180": 'Randomize' is obsolete: If seed need to be used use RandomGenerator instead
+14:52:34.451  SCRIPT    (W): @"scripts/Game/Groups/SCR_GroupTileButton.c,684": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:52:34.488  SCRIPT    (W): @"scripts/Game/ScenarioFramework/Actions/AIActions/SCR_ScenarioFrameworkAIActionSetCharacterStance.c,23": 'SetStance' is obsolete
+14:52:34.489  SCRIPT    (W): @"scripts/Game/ScenarioFramework/Actions/AIActions/SCR_ScenarioFrameworkAIActionSetMovementType.c,23": 'SetMovementType' is obsolete
+14:52:34.554  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,436": 'SetPlayerMutedState' is obsolete: Use SocialComponent.SetMuted(playerId, muted).
+14:52:34.554  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,438": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:52:34.555  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,498": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:52:34.556  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1132": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:52:34.556  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1135": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:52:34.557  SCRIPT    (W): @"scripts/Game/UI/HUD/SCR_PlayerListMenu.c,1139": 'GetPlayerMutedState' is obsolete: Use SocialComponent.IsMuted(playerId).
+14:52:34.589  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsFilteredSubMenu.c,7": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:52:34.589  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsFilteredSubMenu.c,36": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:52:34.590  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsSubMenu.c,358": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:52:34.591  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsSubMenu.c,380": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:52:34.591  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsSubMenu.c,420": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:52:34.592  SCRIPT    (W): @"scripts/Game/UI/Menu/ContentBrowser/MainMenu/SCR_ContentBrowser_AddonsSubMenu.c,444": 'SetPageItems' is obsolete: Use SetPageSize() instead!
+14:52:34.604  SCRIPT    (W): @"scripts/Game/UI/Menu/GroupSettingsDialogUI.c,37": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:52:34.615  SCRIPT    (W): @"scripts/Game/UI/Menu/ServerBrowserMenuUI.c,2799": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:52:34.616  SCRIPT    (W): @"scripts/Game/UI/Menu/ServerBrowserMenuUI.c,2832": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:52:34.616  SCRIPT    (W): @"scripts/Game/UI/Menu/ServerBrowserMenuUI.c,2857": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:52:34.639  SCRIPT    (W): @"scripts/Game/Vehicle/SCR_ImpactEffectComponent.c,206": Comparing unrelated types 'Class' and 'Physics'
+14:52:34.640  SCRIPT    (W): @"scripts/Game/Vehicle/SCR_ImpactEffectComponent.c,337": Comparing unrelated types 'Class' and 'Physics'
+14:52:34.644  SCRIPT    (W): @"scripts/Game/Weapon/Sights/SCR_2DPIPSightsComponent.c,432": 'SetGUIWidget' is obsolete: Use SetRenderTarget(IEntity ent) instead
+14:52:34.644  SCRIPT    (W): @"scripts/Game/Weapon/Sights/SCR_2DPIPSightsComponent.c,481": 'SetGUIWidget' is obsolete: Use SetRenderTarget(IEntity ent) instead
+14:52:34.646  SCRIPT    (W): @"scripts/Game/Weapon/Sights/SCR_PIPSightsComponent.c,115": 'SetGUIWidget' is obsolete: Use SetRenderTarget(IEntity ent) instead
+14:52:34.647  SCRIPT    (W): @"scripts/Game/Workshop/SCR_AddonManager.c,256": 'GetPrivilege' is obsolete: Use SocialComponent.IsPrivilegedTo() or IsMultiplayerAllowed()
+14:52:34.647  SCRIPT    (W): @"scripts/Game/Workshop/SCR_AddonManager.c,280": 'GetPrivilegeAsync' is obsolete: Use SocialComponent.RequestSocialPrivilege() or RequestMultiplayerPrivilege()
+14:52:36.676 WORLD        : Entities load @"{9DF143A76F5C6460}worlds/MP/CTI_Campaign_Eden.ent"
+14:52:36.677  WORLD        : Subscene load @"{853E92315D1D9EFE}worlds/Eden/Eden.ent"
+14:52:36.677   RESOURCES    : GetResourceObject @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+14:52:36.677    WORLD        : Entity prefab load @"{C8FAB83670BCF7C3}Prefabs/Structures/Cultural/Calvaries/CalvaryLarge_01.et"
+14:52:36.678     RESOURCES (E): Wrong GUID/name for resource @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat" in property "AssignedMaterial"
+14:52:37.402 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD1.ptc"
+14:52:37.402  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+14:52:37.403 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine.ptc"
+14:52:37.403  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+14:52:37.404 RESOURCES    : Particle effect load @"Particles/Weapon/Explosion_TM62M_AT_Mine_LOD2.ptc"
+14:52:37.404  RESOURCES (E): Wrong GUID/name for resource @"{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et" in property "Prefab"
+14:52:39.053 WORLD        : Game::LoadEntities
+14:52:39.054  WORLD        : CreateEntities
+14:52:39.054   WORLD        : CreateEntities
+14:52:39.054    WORLD        : NotifyBeforeEntitiesCreated
+14:52:39.055     DEFAULT   (W): Server config tried to enable VONDisableUI or VONDisableDirectSpeechUI, this is not allowed.
+14:52:39.088    ENTITY       : Create entity @"ENTITY:1" ('world', GenericWorldEntity) at <0.000000 0.000000 0.000000>
+14:52:39.089     RESOURCES (E):   Failed to decompress memory image data. Data is not DXT.
+14:52:39.089     WORLD     (E): Shore map CPU data creation failed - decompression of DF near atlas texture failed.
+14:52:39.090     WORLD     (E): Loading of shore map failed - creation of CPU data failed
+14:52:39.090     WORLD     (E): Loading of shore map failed - post load checks failed
+14:52:44.515    ENTITY       : Create entity @"ENTITY:610688" ('StaticModelEntity','Assets/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.xob') at <1931.796021 81.777000 5138.725098> @"{6A004A8F0571D456}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_small.et"
+14:52:44.516     DEFAULT   (W): World doesn't contain RadioManagerEntity to support any BaseRadioComponent.
+14:52:47.162    ENTITY       : Create entity @"ENTITY:1055324" ('GenericEntity') at <6225.922852 107.562500 5118.536133>
+14:52:47.162     ENTITY    (E): Door action not set for @"ENTITY:1055324" ('GenericEntity') at <6225.922852 107.562500 5118.536133>
+14:52:47.163    ENTITY       : Create entity @"ENTITY:1055357" ('GenericEntity') at <5252.018066 38.411251 11397.515625>
+14:52:47.163     ENTITY    (E): Door action not set for @"ENTITY:1055357" ('GenericEntity') at <5252.018066 38.411251 11397.515625>
+14:52:47.164    ENTITY       : Create entity @"ENTITY:1055390" ('GenericEntity') at <3274.975098 114.904022 5189.225098>
+14:52:47.164     ENTITY    (E): Door action not set for @"ENTITY:1055390" ('GenericEntity') at <3274.975098 114.904022 5189.225098>
+14:52:47.165    ENTITY       : Create entity @"ENTITY:1055423" ('GenericEntity') at <3741.502930 80.400497 6630.824219>
+14:52:47.166     ENTITY    (E): Door action not set for @"ENTITY:1055423" ('GenericEntity') at <3741.502930 80.400497 6630.824219>
+14:52:47.166    ENTITY       : Create entity @"ENTITY:1055458" ('GenericEntity') at <5642.888184 89.763420 5352.812012>
+14:52:47.166     ENTITY    (E): Door action not set for @"ENTITY:1055458" ('GenericEntity') at <5642.888184 89.763420 5352.812012>
+14:52:47.167    ENTITY       : Create entity @"ENTITY:1055491" ('GenericEntity') at <1365.465942 41.945751 5944.875000>
+14:52:47.167     ENTITY    (E): Door action not set for @"ENTITY:1055491" ('GenericEntity') at <1365.465942 41.945751 5944.875000>
+14:52:47.168    ENTITY       : Create entity @"ENTITY:1055524" ('GenericEntity') at <4556.948242 20.443750 9608.875000>
+14:52:47.168     ENTITY    (E): Door action not set for @"ENTITY:1055524" ('GenericEntity') at <4556.948242 20.443750 9608.875000>
+14:52:47.169    ENTITY       : Create entity @"ENTITY:1055557" ('GenericEntity') at <4612.849121 158.267273 7012.264160>
+14:52:47.169     ENTITY    (E): Door action not set for @"ENTITY:1055557" ('GenericEntity') at <4612.849121 158.267273 7012.264160>
+14:52:47.170    ENTITY       : Create entity @"ENTITY:1055590" ('GenericEntity') at <5782.269043 28.741789 10179.600586>
+14:52:47.170     ENTITY    (E): Door action not set for @"ENTITY:1055590" ('GenericEntity') at <5782.269043 28.741789 10179.600586>
+14:52:47.171    ENTITY       : Create entity @"ENTITY:1055623" ('GenericEntity') at <5571.204102 91.851639 5976.666992>
+14:52:47.171     ENTITY    (E): Door action not set for @"ENTITY:1055623" ('GenericEntity') at <5571.204102 91.851639 5976.666992>
+14:52:47.172    ENTITY       : Create entity @"ENTITY:1055656" ('GenericEntity') at <7223.090820 136.826721 2315.154053>
+14:52:47.172     ENTITY    (E): Door action not set for @"ENTITY:1055656" ('GenericEntity') at <7223.090820 136.826721 2315.154053>
+14:52:47.173    ENTITY       : Create entity @"ENTITY:1055689" ('GenericEntity') at <7223.857910 137.444275 2372.346924>
+14:52:47.173     ENTITY    (E): Door action not set for @"ENTITY:1055689" ('GenericEntity') at <7223.857910 137.444275 2372.346924>
+14:52:47.174    ENTITY       : Create entity @"ENTITY:1055722" ('GenericEntity') at <4522.501953 15.952277 10653.205078>
+14:52:47.174     ENTITY    (E): Door action not set for @"ENTITY:1055722" ('GenericEntity') at <4522.501953 15.952277 10653.205078>
+14:52:47.175    ENTITY       : Create entity @"ENTITY:1055755" ('GenericEntity') at <9417.439453 45.156071 1688.795044>
+14:52:47.175     ENTITY    (E): Door action not set for @"ENTITY:1055755" ('GenericEntity') at <9417.439453 45.156071 1688.795044>
+14:52:47.311    ENTITY       : Create entity @"ENTITY:1104299" ('StaticModelEntity') at <8831.291016 95.934265 2673.487061>
+14:52:47.312     MATERIAL     : Material load @"{45ECF6B1797D3CD9}system/wbdata/PreviewWindow/TransparentMat.emat"
+14:52:47.312      MATERIAL  (E): Material file not found
+14:52:47.312     MATERIAL  (E): Object @"Assets/Structures/Cultural/Calvaries/CalvaryLarge_01/CalvaryLarge_01.xob" - cannot load material @"system/wbdata/PreviewWindow/TransparentMat.emat", creating default one (class MatPBRBasic)
+14:52:50.705    ENTITY       : Create entity @"ENTITY:2305843009213698652" ('GenericEntity','Assets/Props/Military/Antennas/Antenna_R161_01/Antenna_R161_01.xob') at <9354.231445 204.427994 1162.372070>
+14:52:50.705     DEFAULT   (W): BaseRadioComponent does not have any transceiver. (Entity: @"ENTITY:2305843009213698652" ('GenericEntity','Assets/Props/Military/Antennas/Antenna_R161_01/Antenna_R161_01.xob') at <9354.231445 204.427994 1162.372070>). Only printing this message once. There're possibly more nodes with this requirement.
+14:52:51.450    WORLD        : InitEntities 'world'
+14:52:51.450     ENTITY       : Init entity @"ENTITY:3" ('SCR_MapEntity1', SCR_MapEntity) at <6400.000000 0.000000 6400.000000> @"{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et"
+14:52:51.451      SCRIPT    (W): SCR_MapEntity: Cannot get the size from terrain. Using default.
+14:52:51.993     ENTITY       : Init entity @"ENTITY:2305843009213695743" ('SCR_BaseTaskManager') at <20.724001 0.000000 7.936000> @"{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et"
+14:52:51.993      GUI          : WidgetManager: CrateWidgets @"{ACCF501DD69CAF7B}UI/layouts/Tasks/TaskList.layout"
+14:52:51.994       SCRIPT    (E): No data found for keyboard:KC_ESCAPE !! Check 'chimeraMapping.conf' and add data if necessary! Provided Actioname: TasksClose.

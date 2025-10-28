@@ -33,6 +33,9 @@
 			"disableThirdPerson": false,
 			"fastValidation": true,
 			"battlEye": true,
+			"VONDisableUI":false,
+			"VONDisableDirectSpeechUI":false,
+			"VONCanTransmitCrossFaction":false,
 			"missionHeader": {}
 		},
 		"mods": []

@@ -190,6 +190,18 @@ else:
         config["game"]["gameProperties"]["networkViewDistance"] = int(
             os.environ["GAME_PROPS_NETWORK_VIEW_DISTANCE"]
         )
+    if env_defined("GAME_PROPS_VON_DISABLE_UI"):
+        config["game"]["gameProperties"]["VONDisableUI"] = bool_str(
+            os.environ["GAME_PROPS_VON_DISABLE_UI"]
+        )
+    if env_defined("GAME_PROPS_VON_DISABLE_DIRECT_SPEECH_UI"):
+        config["game"]["gameProperties"]["VONDisableDirectSpeechUI"] = bool_str(
+            os.environ["GAME_PROPS_VON_DISABLE_DIRECT_SPEECH_UI"]
+        )
+    if env_defined("GAME_PROPS_VON_CAN_TRANSMIT_CROSS_FACTION"):
+        config["game"]["gameProperties"]["VONCanTransmitCrossFaction"] = bool_str(
+            os.environ["GAME_PROPS_VON_CAN_TRANSMIT_CROSS_FACTION"]
+        )
 
     # Since we want to keep ENVs as a single source of truth
     # we will regenerate the mod list in case any manual changes were made
